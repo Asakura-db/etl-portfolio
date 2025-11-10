@@ -22,8 +22,7 @@ L’objectif est de montrer une capacité à :
 ```text
 etl_portfolio/
 ├─ README.md
-├─ requirements.txt
-├─ index.html                  # Portfolio web statique (présentation des projets)
+├─ requirements.txt             # Portfolio web statique (présentation des projets)
 ├─ assets/
 │  └─ style.css
 └─ projects/
