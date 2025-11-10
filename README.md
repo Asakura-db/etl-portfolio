@@ -22,20 +22,13 @@ L’objectif est de montrer une capacité à :
 ```text
 etl_portfolio/
 ├─ README.md
-├─ requirements.txt             # Portfolio web statique (présentation des projets)
-├─ assets/
-│  └─ style.css
-└─ projects/
-   ├─ project1_finance_api/
-   │  ├─ etl_finance.py
-   │  ├─ schema_finance.sql
-   │  └─ README.md          
-   ├─ project2_weather_api/
-   │  ├─ etl_weather.py
-   │  ├─ schema_weather.sql
-   │  └─ README.md
-   └─ project3_jobs_scraping/
-      ├─ etl_jobs.py           # Jobs (site de démo)
-      ├─ etl_jobs_france.py    # Jobs France (site réel, sélecteurs à adapter)
-      ├─ schema_jobs.sql
-      └─ README.md
+├─ etl_finance.py
+├─ schema_finance.sql
+├─ README_Finance.md          
+├─ etl_weather.py
+├─ schema_weather.sql
+├─ README_meteo.md
+├─ etl_jobs.py
+├─ etl_jobs_france.py   
+├─ schema_jobs.sql
+└─ README_Emploi.md
