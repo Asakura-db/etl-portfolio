@@ -1,5 +1,3 @@
--- Schéma pour le projet ETL Finance Crypto
-
 CREATE TABLE IF NOT EXISTS crypto_prices (
     id SERIAL PRIMARY KEY,
     coin_id TEXT NOT NULL,
